@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(76, 175, 241);
+    color: rgb(0, 0, 0);
+}
+.navigation .list{
+    position: relative;
+    display: flex;
+    text-transform: uppercase;
+    
+}
+
+.navigation ul{
+    display: flex;
+}
+.navigation ul li{
+    margin-left: 20px;
+}
+
+.navigation ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 45%;
+    border-width: 1px;
+
+}
+.navigation ul li a:hover{
+    background-color: rgb(167, 194, 104);
+}

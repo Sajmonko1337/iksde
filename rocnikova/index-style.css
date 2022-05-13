@@ -1,0 +1,128 @@
+body{
+    background-color: rgb(76, 175, 241);
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    background-image: url("images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navigation{
+    height:70px;
+    position: relative; 
+    top: -16px;
+}
+.navigation .list{
+    position: relative;
+    display: flex;
+    text-transform: uppercase;
+    
+}
+
+.navigation ul{
+    display: flex;
+    background-color: rgba(17, 10, 10, 0.356)
+
+
+}
+.navigation ul li{
+    margin-left: 20px;
+}
+
+.navigation ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    border-width: 1px;
+
+}
+
+.navigation ul li a:hover{
+    background-color: rgb(29, 23, 124);
+    color: white;
+}
+
+input[type=text]{
+    height: 30px;
+    font-size: 25px;
+    border: 0;
+    border-bottom: 1px solid #435160;
+    outline: none;
+
+}
+input[type=password]{
+    height: 30px;
+    font-size: 25px;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid #435160;
+    color:black;
+}
+input[type=email]{
+    height: 30px;
+    font-size: 25px;
+    border: 0;
+    border-bottom: 1px solid #435160;
+    outline: none;
+
+}
+.prihlasenie{
+    position: relative;
+    text-align: center;  
+    margin-top: 300px;
+    text-decoration-color: black;
+    margin-left: 37%;
+    width: 400px;
+}
+.prihlasenie-pozadie{
+    background-color: white;
+    width: 450px;
+    height: 450px;
+    padding-top: 20px;
+}
+
+.loginText{
+    position: relative;
+    text-align: center;
+    height: 20px;
+    padding-top: 10px;
+}
+
+input[type=submit]{
+    height: 40px;
+    font-size: 20px;
+    outline: none;
+    padding-top: 10px;
+    text-align: center;
+    color: black;
+}
+input[type=number]{
+    height: 30px;
+    font-size: 25px;
+    border: 0;
+    border-bottom: 1px solid #435160;
+    outline: none;
+    color: black;
+}
+.icon-holder{
+    margin: 25px 25px 25px 25px;
+    color:black;
+}
+.icon-holder input {
+    height: 30px;
+    width: 70%;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-color: black;
+  }
+.prihlasenie-place{
+    padding:0px;
+    color:black;
+    margin-top: -180px;
+}
+.main{
+    margin-left: 20px;
+}
